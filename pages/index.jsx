@@ -37,7 +37,7 @@ export default function Home() {
                 <div className="md:border-l-2 md:border-dashed md:border-gray-500 opacity-20 md:mx-2"></div>
                 <div className="flex flex-col space-y-3 md:justify-evenly lg:space-y-4 w-[100%]  md:p-3 lg:p-4 text-xl md:text-2xl lg:text-4xl">
                   <Link href="/assets/resume.pdf" target="_blank">
-                    <div className="text-gray-700 flex bg-emerald-300 hover:bg-emerald-200 justify-between p-3 md:p-5  lg:p-7 rounded-[30px] md:rounded-[50px] lg:rounded-[60px] transition ease-in-out delay-100  hover:scale-95 shadow-lg cursor-pointer">
+                    <div className="text-gray-700 flex bg-emerald-300 hover:bg-emerald-200 justify-between p-3 md:p-5  lg:p-7 rounded-[30px] md:rounded-[50px] lg:rounded-[60px] md:transition md:ease-in-out md:delay-100  hover:scale-95 shadow-lg cursor-pointer">
                       <div className="">Resume</div>
                       <div>
                         <GrNotes />
@@ -48,7 +48,7 @@ export default function Home() {
                     href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
                     target="_blank"
                   >
-                    <div className="text-gray-700 flex bg-emerald-300 hover:bg-emerald-200 justify-between p-3 md:p-5  lg:p-7 rounded-[30px] md:rounded-[50px] lg:rounded-[60px] transition ease-in-out delay-100  hover:scale-95 shadow-lg cursor-pointer">
+                    <div className="text-gray-700 flex bg-emerald-300 hover:bg-emerald-200 justify-between p-3 md:p-5  lg:p-7 rounded-[30px] md:rounded-[50px] lg:rounded-[60px] md:transition md:ease-in-out md:delay-100  hover:scale-95 shadow-lg cursor-pointer">
                       <div>Gmail</div>
                       <div>
                         <SiGmail />
@@ -56,7 +56,7 @@ export default function Home() {
                     </div>
                   </Link>
                   <Link href="https://github.com/haji09" target="_blank">
-                    <div className="text-gray-700 flex bg-emerald-300 hover:bg-emerald-200 justify-between p-3 md:p-5  lg:p-7 rounded-[30px] md:rounded-[50px] lg:rounded-[60px] transition ease-in-out delay-100  hover:scale-95 shadow-lg cursor-pointer">
+                    <div className="text-gray-700 flex bg-emerald-300 hover:bg-emerald-200 justify-between p-3 md:p-5  lg:p-7 rounded-[30px] md:rounded-[50px] lg:rounded-[60px] md:transition md:ease-in-out md:delay-100  hover:scale-95 shadow-lg cursor-pointer">
                       <div>Github</div>
                       <div>
                         <BsGithub />
@@ -67,7 +67,7 @@ export default function Home() {
                     href="https://www.linkedin.com/in/mohammed-haji-886209144/"
                     target="_blank"
                   >
-                    <div className="text-gray-700 flex bg-emerald-300 hover:bg-emerald-200 justify-between p-3 md:p-5  lg:p-7 rounded-[30px] md:rounded-[50px] lg:rounded-[60px] transition ease-in-out delay-100  hover:scale-95 shadow-lg cursor-pointer">
+                    <div className="text-gray-700 flex bg-emerald-300 hover:bg-emerald-200 justify-between p-3 md:p-5  lg:p-7 rounded-[30px] md:rounded-[50px] lg:rounded-[60px] md:transition md:ease-in-out md:delay-100  hover:scale-95 shadow-lg cursor-pointer">
                       <div>LinkedIn</div>
                       <div>
                         <GrLinkedinOption />
@@ -78,7 +78,7 @@ export default function Home() {
                     href="https://haji-portfolio.vercel.app/"
                     target="_blank"
                   >
-                    <div className="text-gray-700 flex bg-emerald-300 hover:bg-emerald-200 justify-between p-3 md:p-5  lg:p-7 rounded-[30px] md:rounded-[50px] lg:rounded-[60px] transition ease-in-out delay-100  hover:scale-95 shadow-lg cursor-pointer">
+                    <div className="text-gray-700 flex bg-emerald-300 hover:bg-emerald-200 justify-between p-3 md:p-5  lg:p-7 rounded-[30px] md:rounded-[50px] lg:rounded-[60px] md:transition md:ease-in-out md:delay-100  hover:scale-95 shadow-lg cursor-pointer">
                       <div>Portfolio</div>
                       <div>
                         <TbDeviceDesktopAnalytics />
